@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  tools {nodejs "node"}
+  tools {Nodejs "17.2.0"}
   stages{
     stage('build') {
       steps {
