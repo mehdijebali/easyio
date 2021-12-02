@@ -1,5 +1,6 @@
 pipeline {
   agent any
+  stages{
   tools {nodejs "latest"}
   
     stage('build') {
@@ -8,4 +9,5 @@ pipeline {
         sh 'npm install'
       }
     }
+  }
 }
