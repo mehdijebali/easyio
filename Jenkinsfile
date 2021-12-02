@@ -1,12 +1,10 @@
 pipeline {
   agent any
-  stages{
   tools {nodejs "latest"}
-  
+  stages{
     stage('build') {
       steps {
         echo 'Building Javascript project'
-        sh 'npm install'
       }
     }
   }
