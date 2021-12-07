@@ -6,7 +6,7 @@ pipeline {
       steps {
         echo 'Building Javascript project'
         sh 'npm install'
-        sh 'npm start'
+        sh 'node main.js --name default --port 8081'
       }
     }
   }
