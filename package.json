@@ -8,8 +8,7 @@
     "type": "git"
   },
   "scripts": {
-    "start": "node main.js",
-    "build": "npm run build"
+    "start": "node main.js"
   },
   "author": "Juriy Bura <juriy.bura@gmail.com>",
   "license": "MIT",
